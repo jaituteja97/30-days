@@ -9,7 +9,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         drawer: CustomDrawer(),
         appBar: AppBar(
-          backgroundColor: Colors.deepPurple,
           title: Text("Catelog App"),
           centerTitle: true,
         ),
